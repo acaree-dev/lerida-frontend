@@ -1,4 +1,4 @@
-# Lerida Frontend
+# Lerida Frontend - Archive
 
 React + TypeScript + Vite + TailwindCSS frontend intended to be built and embedded inside a Java backend application (for example, a Spring Boot service). This repository holds the SPA source. Build output (dist) should be copied or served by the Java app so the backend can serve the static frontend in production.
 

@@ -1,0 +1,5 @@
+{
+  "name": "Lerida Event Platform",
+  "description": "A web application for Lerida, an events management platform, allowing users and brands to create events and landing pages.",
+  "requestFramePermissions": []
+}

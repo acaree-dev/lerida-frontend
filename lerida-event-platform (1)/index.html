@@ -5,33 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lerida Event Platform</title>
 
-    <!--
-      Use the locally-built Tailwind CSS output instead of the CDN.
-      Ensure your index.css includes the Tailwind directives:
-        @tailwind base;
-        @tailwind components;
-        @tailwind utilities;
-      and that Tailwind is configured in tailwind.config.js.
-    -->
+    <!-- Use the locally-built Tailwind CSS output -->
     <link rel="stylesheet" href="/index.css" />
-
-    <!--
-      NOTE:
-      - Do NOT use CDN import maps for React/react-dom in a Vite project.
-      - Vite will resolve bare imports from node_modules during dev and build.
-      - If you serve the app under a subpath, set VITE_BASE_PATH (or the `base`
-        option in vite.config.ts) and ensure paths to assets are correct.
-    -->
   </head>
 
   <body class="bg-black">
     <div id="root"></div>
 
-    <!--
-      Use a single module entry; point to your app's client entry file.
-      Common pattern: /src/main.tsx (adjust if your entry file is named differently).
-      Vite will resolve imports like `import React from 'react'` from node_modules.
-    -->
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Single module entry; adjust the path if your entry file is different -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
